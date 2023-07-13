@@ -15,3 +15,12 @@
 
 /***** 02 Deklaration + Wertzuweisung I *******/
 
+let firstName; // Deklaration ( Definition)
+firstName = "Max";  // Wertzuweisung
+console.log(firstName);  // Ausgabe
+
+let familyName;
+familyName = "Mütze";
+console.log(familyName);
+
+

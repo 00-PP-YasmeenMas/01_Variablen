@@ -51,18 +51,20 @@
 // firstName = "Maxine";  // Keine neue Zuweisung zur LZ möglich! --> Fehler
 // console.log(firstName);  // Ausgabe
 
-/***** 04 Beispiel - Berchnung *******/
+/***** 04 Beispiel - Berechnung *******/
 
 // Deklaration
 let ageJohn, ageMark;
 const birthYearJohn = 2000;
 const birthYearMark = 1990;
 
+// Berechnung
 let date  = new Date();  // Systemfunktion Datum
 let year = date.getFullYear(); // Daten liefern lassen!
 ageJohn = year - birthYearJohn;
 ageMark = year - birthYearMark;
 
+//Ausgabe
 console.log("ageJohn: " + ageJohn);
 console.log("ageMark: " + ageMark);
 

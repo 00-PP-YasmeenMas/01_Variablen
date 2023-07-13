@@ -23,7 +23,6 @@
 // familyName = "Mütze";
 // console.log(familyName);
 
-
 /***** 03 Deklaration + Wertzuweisung II *******/
 
 // let firstName, familyName;
@@ -44,8 +43,25 @@
 
 /***** 03a Variablen vs. Konstanten *******/
 
-const firstName = "Max"; // Variable mit Konstantem Inhalt
-firstName = "Maxine";  // Keine neue Zuweisung zur LZ möglich! --> Fehler
-console.log(firstName);  // Ausgabe
+// let firstName = "Max"; // Deklaration + Wertzuweisung
+// firstName = "Maxine";  
+// console.log(firstName);  // Ausgabe
+
+// const firstName = "Max"; // Variable mit Konstantem Inhalt
+// firstName = "Maxine";  // Keine neue Zuweisung zur LZ möglich! --> Fehler
+// console.log(firstName);  // Ausgabe
+
+/***** 04 Beispiel - Berchnung *******/
+
+// Deklaration
+let ageJohn, ageMark;
+const birthYearJohn = 2000;
+const birthYearMark = 1990;
+
+ageJohn = 2023 - birthYearJohn;
+ageMark = 2023 - birthYearMark;
+
+console.log("ageJohn: " + ageJohn);
+console.log("ageMark: " + ageMark);
 
 

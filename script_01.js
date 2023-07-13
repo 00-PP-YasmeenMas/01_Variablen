@@ -42,7 +42,7 @@
 // console.log("Datentyp: " + typeof test);
 // console.log("Inhalt: " + test);
 
-/***** 04 Variablen vs. Konstanten *******/
+/***** 03a Variablen vs. Konstanten *******/
 
 const firstName = "Max"; // Variable mit Konstantem Inhalt
 firstName = "Maxine";  // Keine neue Zuweisung zur LZ möglich! --> Fehler
